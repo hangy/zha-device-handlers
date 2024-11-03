@@ -1616,7 +1616,7 @@ class Plug_TZ3000_2AC_var02(EnchantedDevice):
 
 
 class Plug_4AC_2USB_TZ3000_cfnprab5(CustomDevice):
-    """Tuya 4 outlet + 4 USB without any metering or restore"""
+    """Tuya 4 outlet + 4 USB without any metering or restore."""
 
     signature = {
         MODEL: "TS011F",
