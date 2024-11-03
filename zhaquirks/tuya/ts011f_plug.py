@@ -1614,6 +1614,7 @@ class Plug_TZ3000_2AC_var02(EnchantedDevice):
         },
     }
 
+
 class Plug_4AC_2USB_TZ3000_cfnprab5(CustomDevice):
     """Tuya 4 outlet + 4 USB without any metering or restore"""
 
@@ -1634,9 +1635,7 @@ class Plug_4AC_2USB_TZ3000_cfnprab5(CustomDevice):
                     OnOff.cluster_id,
                     TuyaZBE000Cluster.cluster_id,
                 ],
-                OUTPUT_CLUSTERS: [
-                    Time.cluster_id
-                ],
+                OUTPUT_CLUSTERS: [Time.cluster_id],
             },
             2: {
                 # <SimpleDescriptor endpoint=1 profile=260 device_type=0x0100
